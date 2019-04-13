@@ -1,47 +1,25 @@
 {
   "name": "suck-my-spoiler",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtharvaSharma07/suck-my-spoiler.git"
+  },
+  "author": "Pranay Singh <pranay@cloudcover.in> (https://pranaysinghdev.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AtharvaSharma07/suck-my-spoiler/issues"
+  },
+  "homepage": "https://github.com/AtharvaSharma07/suck-my-spoiler#readme",
   "dependencies": {
-    "core-js": "^2.6.5",
-    "vue": "^2.6.6"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.5.0",
-    "@vue/cli-plugin-eslint": "^3.5.0",
-    "@vue/cli-service": "^3.5.0",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.8.0",
-    "eslint-plugin-vue": "^5.0.0",
-    "vue-template-compiler": "^2.5.21"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "rules": {},
-    "parserOptions": {
-      "parser": "babel-eslint"
-    }
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ]
+    "axios": "^0.18.0",
+    "body-parse": "^0.1.0",
+    "express": "^4.16.4",
+    "mongodb": "^3.2.3"
+  }
 }
